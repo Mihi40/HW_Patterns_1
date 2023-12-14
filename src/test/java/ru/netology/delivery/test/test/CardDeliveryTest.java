@@ -1,10 +1,10 @@
-package ru.netology.delivery.test;
+package ru.netology.delivery.test.test;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
-import ru.netology.delivery.data.DataGenerator;
+import ru.netology.delivery.test.test.DataGenerator;
 
 import java.time.Duration;
 
