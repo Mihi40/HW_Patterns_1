@@ -32,21 +32,21 @@ public class DataGenerator {
         return faker.phoneNumber().phoneNumber();
     }
 
-    public static class registration {
-        private registration() {
+    public static class Registration {
+        private Registration() {
         }
 
-        public static userInfo generateUser(String locale) {
-            return new userInfo (generateCity(), generateName(locale), generatePhone(locale));
+        public static UserInfo generateUser(String locale) {
+            return new UserInfo (generateCity(), generateName(locale), generatePhone(locale));
         }
     }
 
     @Value
-    public static class userInfo {
+    public static class UserInfo {
         String city;
         String name;
         String phone;
-        }
+    }
     }
 
 
